@@ -14,7 +14,7 @@ import { formatCurrency, formatDate, formatTxId } from '../utils/formatters'
 import { CATEGORY_META } from '../data/mockData'
 
 const SELECT_CLS =
-  'bg-surface border border-border-base text-ink-secondary text-sm rounded-[9px] px-3 py-2 cursor-pointer transition-colors hover:border-border-base focus:border-accent focus:text-ink-primary'
+  'bg-surface border border-border-base text-ink-primary text-sm rounded-[9px] px-3 py-2 cursor-pointer transition-colors hover:border-border-base focus:border-accent focus:text-black'
 
 export default function Transactions() {
   const { role, filters, setFilter, resetFilters, deleteTransaction } = useApp()
