@@ -24,7 +24,7 @@ const INPUT_CLS = 'w-full bg-bg-tertiary border border-border-base text-ink-prim
 export default function Settings() {
   const { transactions, role, setRole, clearData, showToast } = useApp()
   const [clearConfirmOpen, setClearConfirmOpen] = useState(false)
-  const [displayName, setDisplayName] = useState('Arjun Kapoor')
+  const [displayName, setDisplayName] = useState('Sameep Chaurasia')
   const [currency, setCurrency] = useState('USD')
 
   function handleExport() {
